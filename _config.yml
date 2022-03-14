@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "YooJaeJun"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/Profile_YooJaejun.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**Hi HI hi** Let's study hard."
   location         : "South Korea"
   email            :
