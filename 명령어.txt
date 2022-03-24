@@ -1,0 +1,2 @@
+cd source\repos\Github
+bundle exec jekyll serve
