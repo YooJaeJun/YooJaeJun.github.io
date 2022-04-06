@@ -1,15 +1,18 @@
 ---
-layout: page
-title: About
 permalink: /about/
+title: " "
+toc: true
+toc_sticky: true
+toc_label: "MYSELF"
 ---
 
-Some information about you!
+![icon](/assets/logo.ico/favicon-76x76.png)
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+안녕하세요.
 
-[email@domain.com](mailto:email@domain.com)
+게임 프로그래머를 지향합니다.
+
+반갑습니다.
+
