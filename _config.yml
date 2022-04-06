@@ -288,8 +288,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true  # 주석 해제함
+      read_time: false  # 읽는 데 걸리는 소요시간 표시
+      show_date: true # 포스팅 날짜 표시
+      comments: true  # 댓글
       share: true
       related: true
 
