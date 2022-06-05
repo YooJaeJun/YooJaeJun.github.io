@@ -282,23 +282,12 @@ compress_html:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: home
-      author_profile: true
-      sidebar:
-        nav: main-sidebar
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      sidebar:
-        nav: main-sidebar
-      toc: true
-      toc_sticky: true
-      toc_label: "MYSELF"
+      sidebar_main: true
       layout: single
       author_profile: true
       read_time: false  # 읽는 데 걸리는 소요시간 표시

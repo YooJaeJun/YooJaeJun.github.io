@@ -6,7 +6,7 @@ main:
   #  url: /about/
   - title: "Category"
     url: /categories/
-main-sidebar:
+sidebar_main:
   - title: "Category"
     url: /categories/
     children:

@@ -3,6 +3,7 @@ permalink: /categories/
 title: "카테고리"
 layout: category
 author_profile: true
+sidebar_main: true
 ---
 
 <div class="page clearfix">
