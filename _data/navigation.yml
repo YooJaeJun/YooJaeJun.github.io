@@ -4,18 +4,11 @@ main:
   #  url: "/"
   # - title: "Introduce"
   #  url: /about/
-  - title: "Category"
-    url: /categories/
-sidebar_main:
-  - title: "Category"
-    url: /categories/
-    children:
-      - title: "CS"
-        url: /categories/CS/
-      - title: "PS"
-        url: /categories/PS/
-      - title: "Language"
-        url: /categories/Language/
+  # - title: "Category"
+  #   url: /categories/
+# sidebar_main:
+  # - title: "Category"
+  #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
   # - title: "Quick-Start Guide"

@@ -5,7 +5,6 @@ layout: category
 author_profile: true
 sidebar_main: true
 ---
-
 <div class="page clearfix">
   <div class="left">
     <h1>{{page.title}}</h1>

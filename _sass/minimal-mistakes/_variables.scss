@@ -13,10 +13,26 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
+// 눈누 이롭게바탕체
+$serif: "Coming Soon", Georgia, Times, serif !default;
+$sans-serif: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$cute: "Cafe24Oneprettynight" !default;
+
+// Nanum Serif KR
+/*
+$serif      : Georgia, Times, serif;
+$sans-serif : "Nanum Serif KR", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+*/
+// Nanum Gothic
+/*
 $serif: Georgia, Times, serif !default;
 $sans-serif: "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Nanum Gothic", Monaco, Consolas, "Lucida Console", monospace !default;
+*/
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
