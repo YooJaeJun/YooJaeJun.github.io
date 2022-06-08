@@ -14,13 +14,13 @@ C++에서 string을 특정 자료형의 문자들만 split해서 저장하고 �
 
 내가 자주 사용해야 했던 기능들을 정리하고,
 
-항상 쓸 때마다 까먹거나 헷갈리는 stringstream 문법을 공부해보자.
+항상 쓸 때마다 까먹거나 헷갈리는 std::stringstream 문법을 공부해보자.
 
 우선 <sstream> 헤더를 포함하고
 
 아래 예시와 같이 사용한다.
 
-<br>
+
 ```cpp
 #include <iostream>
 #include <sstream>
@@ -29,9 +29,9 @@ using namespace std;
 int main()
 {
 	int num;
-	string str = "123 456 789";		// 공백 제외하고 숫자를 나누고자 함 -> int 타입의 변수들만 추출하자.
+	string str = "123 456 789";	// 공백 제외하고 숫자를 나누고자 함 -> int 타입의 변수들만 추출하자.
 	stringstream stream;
-	stream.str(str);	// 
+	stream.str(str);	// 현재 stream의 값을 str로 바꾼다.
 	while (stream >> num) 	// 더 이상 num 의 자료형에 맞는 정보가 없을 때까지 계속 stream에서 num으로 자료를 복사.
 	{
 		cout << num << '\n';
@@ -89,13 +89,14 @@ int split
 
 다만 공백, 제어문자(줄바꿈, 탭 등)는 char 혹은 string 타입으로 읽지 않는 것으로 보인다.
 
-다만 개행문자와 같은
 
-만일 뒤에 "a 50" 라는 문자열이 추가로 있어도
+<br>
+---
+<br>
+일반적인 사용법은 여기까지만 알아두면 될 것 같다.
+<br>
 
-똑같이 "789" 까지만 추출한다.
-
-더 나아가 실수 형태 + stream 두 번 추출했을 경우를 알아보자.
+그치만 난 더 나아가 실수 형태 + stream 두 번 추출했을 경우를 알아보기로 했다.
 
 ```cpp
 #include <iostream>
@@ -118,7 +119,7 @@ int main()
 	}
 	stream.clear();	
 	// stream.clear() : 첫 위치부터 다시 추출받기 위한 용도. 
-	// string 끝까지 도달했는 flag가 올라가서 값이 추출되지 않기 때문 flag bit 초기화.
+	// string 끝까지 도달했다는 flag가 올라가서 값이 추출되지 않기 때문에, flag bit를 초기화.
 	cout << '\n';
 
 	cout << "double split \n";
@@ -151,7 +152,75 @@ double split
 6. 마지막: 그 전 char 타입을 만나 추출되지 않는다.
 
 
-<br>
+
+<br><br>
 이제 활용해보자.
 
-알고리즘 문제에 유용하게 쓸 수 있는 경우가 많아서 확실히 기억해두려 한다.
+```cpp
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector> 
+using namespace std;
+
+// 시간 데이터를 받아 "~시 ~분 ~초" 형태로 표현하자.
+
+int main(void) 
+{
+	string timeStr = "2022.06.08 15:01:20";		
+	//연 월 일 시 분 초
+
+	for (auto& timeCh : timeStr)
+		if (timeCh == ':' || timeCh == '.')
+			timeCh = ' ';
+			// 추출이 멈추지 않기 위해 공백으로 바꿔준다.
+
+	unsigned int num = 0;
+	stringstream stream;
+	stream.str(timeStr);
+	vector<unsigned int> splitedTime;	// 출력 대신 저장해줄 공간
+
+	while (stream >> num)
+	{
+		splitedTime.push_back(num);
+	}
+
+	vector<string> koreaTime{ "년", "월", "일", "시", "분", "초" };
+	int idx = 0;
+	for (auto& elem : splitedTime)
+	{
+		cout << elem << koreaTime[idx++] << ' ';
+	}
+	cout << '\n';
+
+	return 0;
+}
+```
+```cpp
+2022년 6월 8일 15시 1분 20초
+```
+
+시간 데이터를 받아 "~시 ~분 ~초" 형태로 표현하자.
+
+1. 추출을 멈추지 않기 위해 ':' 와 '.' 를 공백문자로 바꿔주었다.
+2. stringstream으로 정수 타입 num으로 받고, splitedTime 배열에 넣어주었다.
+3. 한국식 시간단위 표기를 배열로 저장하여, 분리된 시간 뒤에 붙여주었다.
+
+
+
+<br>
+---
+
+마치며,
+
+std::stringstream은 특히
+
+알고리즘 문제에 유용하게 쓸 수 있는 경우가 많아서 확실히 기억해두자.
+
+
+
+
+<br>
+std::stringstream 내 함수
+<br>
+<https://www.cplusplus.com/reference/sstream/stringstream/>
