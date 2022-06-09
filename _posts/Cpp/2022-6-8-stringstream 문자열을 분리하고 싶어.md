@@ -17,6 +17,8 @@ C++에서 string을 특정 자료형의 문자들만 split해서 저장하고 �
 아래 예시와 같이 사용한다.
 
 
+# std::stringstream 사용법
+
 ```cpp
 #include <iostream>
 #include <sstream>
@@ -48,6 +50,8 @@ stringstream은 "int에 맞는 자료가 없을 때까지" 추출해버린다.
 
 또 다른 예시에서 확인해보자.
 
+
+# 공백, 제어문자, 다른 타입
 
 ```cpp
 #include <iostream>
@@ -88,7 +92,9 @@ int split
 
 <br>
 ---
-<br>
+
+# 실수 형태, stream 연속 추출
+
 일반적인 사용법은 여기까지만 알아두면 될 것 같다.
 <br>
 
@@ -150,6 +156,9 @@ double split
 
 
 <br><br>
+
+# 응용
+
 이제 활용해보자.
 
 ```cpp
@@ -205,6 +214,7 @@ int main(void)
 
 
 <br>
+
 ---
 
 마치며,
@@ -215,8 +225,7 @@ std::stringstream은 특히
 
 
 
+# std::stringstream 내 함수
 
-<br>
-std::stringstream 내 함수
 <br>
 <https://www.cplusplus.com/reference/sstream/stringstream/>

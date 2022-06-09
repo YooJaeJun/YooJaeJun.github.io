@@ -6,6 +6,8 @@ tags:
     - Cpp
 ---
 
+# printf() 소수점 출력
+
 실수의 소수점 n자리를 출력하기 위해
 
 printf() 는 다음과 같이 
@@ -28,6 +30,8 @@ int main()
 ```
 
 <br>
+# cout 소수점 출력
+
 그렇다면 cout 출력방식은 소수점을 어떻게 표현할까?
 <br>
 
@@ -62,7 +66,7 @@ int main()
 우선, 실수부, 정수부를 포함해 n자리를 나타내는 방법이다.
 
 ```cpp
-cout.precion(n);
+cout.precision(n);
 ```
 
 위 예시에 cout 출력 전에 위 코드를 삽입하면
@@ -70,6 +74,9 @@ cout.precion(n);
 n == 실수부, 정수부를 포함한 자릿수
 
 만큼 수가 출력된다.
+
+# cout.precision(n)
+
 <br>
 
 ```cpp
@@ -95,6 +102,9 @@ cout << fixed;
 <br>
 코드를 cout.precision(n) 앞에 삽입하면 된다.
 <br>
+
+
+# cout << fixed;
 
 ```cpp
 #include <iostream>
@@ -126,6 +136,8 @@ cout.unsetf(ios::fixed);
 
 코드를 추가해주면 된다.
 
+
+# cout 초기화;
 
 ```cpp
 #include <iostream>
@@ -164,11 +176,11 @@ cout.tie(0);
 
 
 <br><br>
-문제 예시
+# 문제 예시
 <br/>
 <https://www.acmicpc.net/problem/2754>
 
-<br><br>
+<br>
 예시 코드
 <br>
 
