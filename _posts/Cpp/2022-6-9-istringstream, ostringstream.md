@@ -11,6 +11,7 @@ tags:
 
 stringstream 관한 내용은 전 글 참고...
 <br>
+<https://yoojaejun.github.io/cpp/stringstream-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EB%B6%84%EB%A6%AC%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%96%B4/>
 
 ---
 <br>
