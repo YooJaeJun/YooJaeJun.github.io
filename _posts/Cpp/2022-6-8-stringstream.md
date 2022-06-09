@@ -1,6 +1,6 @@
 ---
-permalink: /Cpp/stringstream
-title: "stringstream"
+permalink: /Cpp/문자열을 분리하고 싶어 stringstream
+title: "문자열을 분리하고 싶어 stringstream"
 toc: true
 toc_sticky: true
 toc_label: "MYSELF"
