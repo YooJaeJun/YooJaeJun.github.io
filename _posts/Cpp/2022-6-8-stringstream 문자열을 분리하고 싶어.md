@@ -1,9 +1,5 @@
 ---
-permalink: /Cpp/stringstream 문자열을 분리하고 싶어
 title: "stringstream 문자열을 분리하고 싶어"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
 categories:
     - Cpp
 tags:

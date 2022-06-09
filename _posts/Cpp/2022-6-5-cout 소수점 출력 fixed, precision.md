@@ -1,9 +1,5 @@
 ---
-permalink: /Cpp/cout 소수점 출력 fixed, precision
 title: "cout 소수점 출력 fixed, precision"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
 categories:
     - Cpp
 tags:

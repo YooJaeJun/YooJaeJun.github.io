@@ -1,9 +1,5 @@
 ---
-permalink: /Cpp/istringstream, ostringstream
 title: "istringstream, ostringstream"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
 categories:
     - Cpp
 tags:
@@ -14,7 +10,7 @@ tags:
 비슷한 문자열 파싱 함수 2가지를 더 공부해야겠다.
 
 stringstream 관한 내용은 전 글 참고...
-
+<br>
 
 ---
 <br>

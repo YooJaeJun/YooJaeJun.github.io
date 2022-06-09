@@ -295,6 +295,9 @@ defaults:
       comments: true  # 댓글
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "On this Page"
 
   # _pages            : 해당 하단 영역이 새로 추가됨.
   - scope:
