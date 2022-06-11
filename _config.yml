@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yoo jaejun"
   avatar           : "assets/logo.ico/favicon-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Study hard, return true;"
+  bio              : "Study hard, return true; :)"
   location         : "South Korea"
   email            : # 아래 links에 적용
   links:
