@@ -1,5 +1,5 @@
 ---
-permalink: /tags/Game Development/
+permalink: /tags/GameDevelopment/
 title: "Game Development"
 layout: tags
 author_profile: true
