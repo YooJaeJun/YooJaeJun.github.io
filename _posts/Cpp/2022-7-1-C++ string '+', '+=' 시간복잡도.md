@@ -8,10 +8,14 @@ tags:
 
 ## 미리 보는 결론
 
-1. C++ std::string의 '+', '+=' 연산자 오버로딩의 시간복잡도는 다르다.
-2. str += 'a';	// 시간복잡도 O(1)
-3. str = str + 'a'	// 시간복잡도 O(n)
-4. str = 'a' + str	// 시간복잡도 O(n)
+C++ std::string의 operator+, operator+= 연산자 오버로딩의 시간복잡도는 다르다.
+
+- str += 'a';	// 시간복잡도 O(1)
+- str = str + 'a'	// 시간복잡도 O(n)
+- str = 'a' + str	// 시간복잡도 O(n)
+
+
+==> 되도록 operator+=() 를 사용하자.
 
 <br>
 
@@ -84,4 +88,9 @@ str 맨 앞에 'a' 붙인 문자열 생성 후 대입
 
 ## 결론
 
-C++ 에서 string에 문자를 push_back 하는 연산은 += 연산자를 사용하자.
+C++ 에서 string에 문자를 push_back 하는 연산은 operator+=() 연산자를 사용하자.
+
+
+## 참고
+
+<https://en.cppreference.com/w/cpp/string/basic_string/operator%2B>
