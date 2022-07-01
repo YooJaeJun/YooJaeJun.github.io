@@ -1,5 +1,5 @@
 ---
-title: "C++ string 시간복잡도"
+title: "C++ string '+', '+=' 시간복잡도"
 categories:	
     - Cpp
 tags:
