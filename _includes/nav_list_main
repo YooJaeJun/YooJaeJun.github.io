@@ -45,6 +45,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "GameMath" %}
+                    <li><a href="/categories/GameMath" class="">Game Math ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
   </ul>
 </nav>
