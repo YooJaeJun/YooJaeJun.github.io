@@ -1,6 +1,6 @@
 ---
 permalink: /tags/GameMath/
-title: "GameMath"
+title: "Game Math"
 layout: tags
 author_profile: true
 # taxonomy: 게임수학
