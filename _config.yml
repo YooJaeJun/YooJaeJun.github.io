@@ -255,21 +255,21 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categries/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# enabled:
+#   - categories
+#   - tags
+# layouts:
+#   category: archive-taxonomy
+#   tag: archive-taxonomy
+# permalinks:
+#   category: /categories/:name/
+#   tag: /tags/:name/
 
 
 # HTML Compression
@@ -298,11 +298,3 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "On this Page"
-
-  # _pages            : 해당 하단 영역이 새로 추가됨.
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true

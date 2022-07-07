@@ -7,6 +7,4 @@ sidebar_main: true
 # taxonomy: 코딩 테스트용 PS
 ---
 {% assign posts = site.categories.PS %}
-{% for post in posts %} 
-{% include archive-single.html type=page.entries_layout %} 
-{% endfor %}
+{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

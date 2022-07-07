@@ -1,6 +1,6 @@
 ---
 permalink: /categories/
-title: "카테고리"
+title: "Category"
 layout: category
 author_profile: true
 sidebar_main: true

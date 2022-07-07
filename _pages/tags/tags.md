@@ -1,6 +1,6 @@
 ---
 permalink: /tags/
-title: "태그"
+title: "Tag"
 layout: tags
 author_profile: true
 ---
