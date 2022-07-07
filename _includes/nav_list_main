@@ -52,6 +52,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "WinAPIDirectX" %}
+                    <li><a href="/categories/WinAPIDirectX" class="">WinAPI, DirectX ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
   </ul>
 </nav>
