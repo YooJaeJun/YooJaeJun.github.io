@@ -22,7 +22,7 @@ tags:
 - matrix2x2 클래스 직접 만들어보기
 - 이미지 회전 PlgBlt
 
-![image](\assets\WinAPI 탄막 슈팅 - C++ 문법과 디자인 패턴 -\1.png)
+![image](\assets\2022-7-7-WinAPI 탄막 슈팅 - C++ 문법과 디자인 패턴 -\1.png)
 (가장 많이 고민했던 이미지 회전 기능)
 
 
