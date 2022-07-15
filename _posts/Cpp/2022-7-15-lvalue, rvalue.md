@@ -38,9 +38,7 @@ value 카테고리는 표현식 평가 중 임시 객체를 생성, 복사, 이�
 
 C++17 표현식의 value 카테고리 정의
 
-![image](\assets\2022-7-15-lvalue, rvalue\슬라이드1.png)
-
-![image](\assets\2022-7-15-lvalue, rvalue\test.png)
+![image](\assets\새 폴더\슬라이드1.png)
 
 
 
