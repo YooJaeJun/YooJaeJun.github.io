@@ -1,5 +1,5 @@
 ---
-title: "[콘솔] 스네이크 게임 - Double Linked List와 C++ Template 실습 -"
+title: "[Console] 스네이크 게임 - Double Linked List와 C++ Template 실습 -"
 categories:
     - GameDevelopment
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "[콘솔] 텍스트 RPG"
+title: "[Console] 텍스트 RPG"
 categories:
     - GameDevelopment
 tags:
