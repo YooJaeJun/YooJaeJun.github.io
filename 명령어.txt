@@ -1,2 +1,3 @@
-cd source\repos\Github
+B:
+cd source\repos\Github\
 bundle exec jekyll serve
