@@ -22,7 +22,7 @@ Development Editor / x64
 
 ![image](\assets\2023-3-20-빌드 타겟 오류 - The selected platform configuration is not valid for this target\2.png)
 
-x64
+Win 64
 
 ---
 
