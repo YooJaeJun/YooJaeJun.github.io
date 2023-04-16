@@ -1,5 +1,5 @@
 ---
-title: "[Unreal 4] 빌드 타겟 오류 - The selected platform configuration is not valid for this target.md"
+title: "[Unreal 4] 빌드 타겟 오류 - The selected platform configuration is not valid for this target"
 categories:
     - Unreal
 tags:

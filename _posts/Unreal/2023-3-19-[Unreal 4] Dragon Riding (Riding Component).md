@@ -1,5 +1,5 @@
 ---
-title: "[Unreal 4] Dragon Riding (Riding Component).md"
+title: "[Unreal 4] Dragon Riding (Riding Component)"
 categories:
     - Unreal
 tags:
